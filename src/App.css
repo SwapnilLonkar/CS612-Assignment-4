@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Times New Roman, Helvetica, serif;
+}
+
+ .firsthead {
+    border:  1px solid black;
+    padding: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+     background-color: darkcyan;
+}
+
+
+.transbox {
+   background-color: #ffffff;
+   border: 1px solid black;
+   opacity: 0.9;
+   filter: alpha(opacity=20);
+   font-weight: bold;
+   position: absolute;
+   top: 14%;
+   left: 48%;
+   transform: translate(-50%,-50%);
+   z-index: 2;
+   width: 20%;
+   height:16%;
+   padding: 25px;
+   text-align: center;
+
+}
+
+section {
+   display: -webkit-flex;
+   display: flex;
+}
+
+
+
+.nav {
+    float: right;
+     border: 1px solid black;
+     width: 22%;
+     height: 660px;
+     text-align: center;
+    background-color:indianred;
+
+
+}
+
+.main {
+    float: left;
+ padding: 15px;
+ border: 1px solid black;
+  width: 75%;
+  height: 100%;
+    background-color: #edcb6d;
+
+ }
+
+.card1 {
+ width: 100%;
+ padding: 15px;
+ border: 1px solid black;
+ background-image: url("trump.webp");
+ background-repeat: repeat;
+ background-size: auto;
+ top: 50%;
+ left: 30%;
+}
+
+.card2 {
+ width: 100%;
+ padding: 15px;
+ border: 1px solid black;
+ background-image: url("GoogleApple.jpg");
+  background-repeat: repeat;
+ background-size: auto;
+
+}
+
+.card3 {
+ width: 100%;
+ padding: 15px;
+ border: 1px solid black;
+ background-image: url("fbcovidmap.webp");
+ background-repeat: repeat;
+ background-size: auto;
+ }
+
+.transbox1 {
+ width: 100%;
+ padding: 14px;
+ top: 70%;
+ left: 38%;
+ background-color: #ffffff;
+ border: 1px solid black;
+ opacity: 0.9;
+ filter: alpha(opacity=20);
+ font-weight: bold;
+
+}
+
+.transbox2 {
+ width: 100%;
+ padding: 14px;
+ top: 40%;
+ left: 38%;
+ background-color: #ffffff;
+ border: 1px solid black;
+ opacity: 0.8;
+ filter: alpha(opacity=90);
+ font-weight: bold;
+
+}
+
+.transbox3 {
+ width: 100%;
+ padding: 14px;
+ top: 20%;
+ left: 38%;
+ background-color: #ffffff;
+ border: 1px solid black;
+ opacity: 0.8;
+ filter: alpha(opacity=90);
+ font-weight: bold;
+ }
+
+.transbox {
+      background-color: #edcb6d;
+       border: 1px solid black;
+       opacity: 0.9;
+       filter: alpha(opacity=20);
+       font-weight: bold;
+       position: absolute;
+       top: 14%;
+       left: 48%;
+       transform: translate(-50%,-50%);
+       z-index: 2;
+       width: 20%;
+       height:16%;
+       padding: 25px;
+       text-align: center;
+
+}
+.container{
+    height: 100%;
+    background-color: white;
+
+}
+
+
+
+
+@media (max-width: 600px) {
+ section {
+   -webkit-flex-direction: column;
+   flex-direction: column;
+ }
+}
+
